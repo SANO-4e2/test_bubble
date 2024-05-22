@@ -1,0 +1,41 @@
+@font-face {
+  font-family: Bubble_écriture;
+  src: url(fonts/style_écriture_bubble.ttf);
+}
+/*Définition de l'apparence du texte*/
+body,
+a {
+  font-family: Bubble_écriture, sérif;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  line-height: 20px;
+  text-align: center;
+}
+/*Définition du fond*/
+body {
+  background-image: url(fond_image/fond_login.jpg);
+}
+/*Définition de la boite*/
+.bod {
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  padding: 20px 75px;
+  height: auto;
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.entrée-de_texte {
+  opacity: 0.7;
+  height: 30px;
+  width: 90%;
+  border: none;
+  border-bottom: 1px solid black;
+  margin: 10px auto;
+}
+#mdp_oubliée {
+  text-align: right;
+}
